@@ -1,0 +1,22 @@
+:root {
+  --pallet-3-primary: #4f46ba;
+  --pallet-4-primary: #3734a9;
+  --pallet-4-accent: #ff7f5c;
+  --pallet-4-tone: #fdbc64;
+  --read-more-color: #01966b;
+  --white-color: #ffffff;
+  --bg-CTA-box: #f8f9fd;
+  --general-grey-text: #64607d;
+  --green-btn-primary: #22d497;
+  --input-border-color-1: #dfe4f1;
+  --pallet-dark: #1b1c31;
+  --pallet-1-gray: #dee1e6;
+  --user-name-color: #111235;
+  --user-job-color: #6c6c6c;
+  --grey-container-border: #dfdfdf;
+  --see-more-red: #ff6160;
+  --contact-btn-blue: #0091d0;
+  --contents-divider-grey: #e6e6e6;
+  --cta-input-bg: rgba(242, 243, 244, 0.2);
+  --cta-input-placeholder: rgba(187, 181, 224, 0.5);
+}

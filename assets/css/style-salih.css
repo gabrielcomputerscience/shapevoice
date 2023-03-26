@@ -1,0 +1,729 @@
+/* Background items (Polygons & vector) styling starts here. */
+
+.header {
+  margin-bottom: 105px;
+}
+
+.header__vector-1577 {
+  width: 70vw;
+  height: 75vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-position: left -16vw bottom;
+  background-repeat: no-repeat;
+  background-size: 120vw 80vh;
+  z-index: -1;
+}
+
+.header__polygon-5,
+.header__polygon-6 {
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__polygon-5 {
+  position: absolute;
+  top: 6.8vh;
+  width: 8.7vw;
+  height: 32.8vh;
+}
+
+.header__polygon-6 {
+  position: absolute;
+  top: 70vh;
+  width: 4.9vw;
+  height: 35.5vh;
+}
+
+/* Background items styling ends here. */
+
+/* Nav menu styling starts here. */
+
+.header__nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline-start: 8%;
+  margin-top: 1.8%;
+}
+
+.header__brand-name {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header__nav-btn {
+  display: inline-block;
+  text-align: center;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.header__nav-btn i {
+  margin-left: 15px;
+}
+
+.header__nav-btn:not(:first-child) {
+  margin-inline-start: 1.7vw;
+}
+
+.header__nav-items {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.header__nav-items-left {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-items-right {
+  display: flex;
+  width: 16.1vw;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.header__login {
+  text-decoration: none;
+  color: #000;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.header__start-btn {
+  width: 137px;
+  height: 52px;
+  color: white;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  background-color: var(--pallet-3-primary);
+  border-radius: 10px;
+  border: none;
+}
+
+/* NAV Item styling ends here */
+
+/* Above Fold styling starts here */
+.above {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 12%;
+  margin-top: 8vh;
+}
+
+/* --- Above Fold Left Side start --- */
+
+.above__content {
+  display: inline-block;
+  width: 580px;
+}
+
+.above__title {
+  width: 580px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 74px;
+  /* or 123% */
+
+  letter-spacing: -0.03em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.above__description {
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 47px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  letter-spacing: -0.02em;
+  color: var(--general-grey-text);
+}
+
+.above__process-btn {
+  width: 162px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--pallet-4-primary);
+  color: white;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-right: 50px;
+}
+
+.above__play-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 25px;
+  color: white;
+  background-color: var(--green-btn-primary);
+  border: none;
+  margin-right: 11px;
+}
+
+.above__see-link {
+  text-decoration: none;
+  color: var(--pallet-4-primary);
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  /* identical to box height, or 176% */
+
+  letter-spacing: -0.02em;
+}
+
+/* --- Above Fold Left Side end --- */
+
+/* --- Above Fold Right Side start --- */
+
+.above__form-container {
+  display: inline-block;
+  width: 420px;
+  height: 350px;
+  margin-right: 45px;
+}
+
+.above__form-title {
+  margin-bottom: 25px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.02em;
+}
+
+.above__form {
+  margin-top: 0;
+  display: flex;
+  width: 100%;
+  height: 65%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.above__form input {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.above__form input::placeholder {
+  font-size: 20px;
+}
+
+.above__form input:not(:last-child) {
+  padding-left: 21px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--input-border-color-1);
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.02em;
+}
+
+.above__form-title {
+  color: var(--pallet-4-primary);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 30px;
+}
+
+.above__form input:last-child {
+  background-color: var(--pallet-4-accent);
+  border: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* --- Above Fold Right Side end --- */
+
+/* Above Fold styling ends here */
+
+/* Contents (Figma) styling starts here */
+
+/* --- Content Left Side styling starts here */
+.content__cont-frame {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 102px;
+  margin-top: 140px;
+}
+
+.content__cards {
+  width: 584px;
+  height: 522px;
+  position: relative;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* --- Content Left Card styling starts here */
+.content__left-card {
+  position: relative;
+  height: 388px;
+  width: 342px;
+  padding-left: 34px;
+  padding-top: 30px;
+  border: 1px solid;
+  border-color: var(--grey-container-border);
+  box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+  border-radius: 22px;
+}
+
+.content__left-card-title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--user-name-color);
+}
+
+.content__left-card-users {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content__user-wrapper {
+  width: 193px;
+  height: 50px;
+  margin-bottom: 24px;
+  background: #ffffff;
+}
+
+.content__user-pic {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.content__user-info {
+  height: 50px;
+  width: 126px;
+  display: inline-block;
+}
+
+.content__user-name {
+  margin-bottom: 5px;
+  margin-top: 2px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--user-name-color);
+}
+
+.content__user-job {
+  margin-top: 10px;
+  margin-left: 0px;
+  position: relative;
+  bottom: 5px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--user-job-color);
+}
+
+.content__verified-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+
+.content__see-more-btn {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--see-more-red);
+}
+
+.content__see-more-btn span {
+  margin-left: 19px;
+}
+/* --- Content Left Card styling ends here */
+
+/* --- Content Right Card styling starts here */
+
+.content__right-card {
+  width: 370px;
+  height: 302px;
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid;
+  border-color: var(--grey-container-border);
+  box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+  border-radius: 22px;
+}
+
+.content__user-pic-right {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  background-position: center;
+}
+
+.content__user-name-right {
+  margin-block: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: var(--user-name-color);
+}
+
+.content__user-job-right {
+  margin-block: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--user-job-color);
+}
+
+.content__contact-btn-right {
+  width: 166px;
+  height: 42px;
+  margin-top: 15px;
+  background-color: var(--contact-btn-blue);
+  border-radius: 6px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* --- Content Right Card styling ends here */
+
+/* --- Contents Right Side styling starts here */
+
+.content__right {
+  width: 490px;
+  height: 469px;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.content__title-small {
+  margin-bottom: 0px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: var(--pallet-4-primary);
+}
+
+.content__title-big {
+  margin-top: 15px;
+  margin-bottom: 29px;
+  width: 100%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+.content__right-desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: var(--general-grey-text);
+}
+
+.content__right-divider {
+  height: 1px;
+  width: 100%;
+  margin-top: 23px;
+  margin-bottom: 28px;
+  background-color: var(--contents-divider-grey);
+}
+
+.content__right-benefits {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content__right-benefits-li {
+  margin-bottom: 10px;
+}
+
+.content__right-marker {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pallet-4-tone);
+  border-radius: 12px;
+  border: none;
+}
+
+.content__right-marker i {
+  font-size: 10px;
+  color: white;
+}
+
+.content__right-benefits-li span {
+  position: relative;
+  bottom: -3px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: var(--general-grey-text);
+}
+
+/* --- Contents Right Side styling ends here*/
+
+/* Contents (Figma) styling ends here */
+
+/* CTA styling starts here */
+
+.content__cta {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding-inline: 10%;
+  padding-block: 75px;
+  column-gap: 13vw;
+  background-color: var(--pallet-4-primary);
+}
+
+.content__polygon-8,
+.content__polygon-9,
+.content__polygon-10 {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.content__polygon-8 {
+  height: 137px;
+  width: 160px;
+  top: 0px;
+  right: 0px;
+  background-size: cover;
+  background-position: bottom -60px right;
+}
+
+.content__polygon-9 {
+  height: 111px;
+  width: 111px;
+  top: 50%;
+  left: 5px;
+  background-size: 270px 270px;
+  background-position: top left -50px;
+}
+
+.content__polygon-10 {
+  height: 79px;
+  width: 79px;
+  top: 11px;
+  left: 44%;
+  background-size: 250px 250px;
+  background-position: top;
+}
+
+.content__cta-left {
+  flex: 1;
+}
+
+.content__cta-form {
+  flex: 1;
+}
+
+.content__cta-title-small {
+  margin-bottom: 0px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.content__cta-title-big {
+  margin-top: 15px;
+  margin-bottom: 29px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: white;
+}
+
+.content__cta-desc {
+  margin-top: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: white;
+}
+
+.content__cta-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 24px;
+}
+
+.content__cta-form input {
+  width: 371px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.content__cta-form input::placeholder {
+  color: var(--cta-input-placeholder);
+  font-family: "Gilroy-Light";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+}
+
+.content__cta-form input:not(:last-child) {
+  padding-left: 22px;
+  border: none;
+  background-color: var(--cta-input-bg);
+  color: var(--cta-input-placeholder);
+  font-family: "Gilroy-Light";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+}
+
+.content__cta-form input:last-child {
+  background-color: var(--pallet-4-accent);
+  border: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* CTA styling ends here */
+
+/* Additional valueProps styling for background Polygon-7 */
+
+.valueProps__item {
+  background-color: white;
+}
+
+.content__polygon-7 {
+  position: absolute;
+  width: 285px;
+  height: 630px;
+  background-position: right;
+  background-size: cover;
+  right: 0px;
+  z-index: -1;
+}
